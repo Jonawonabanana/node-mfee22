@@ -18,7 +18,7 @@ const { readFile } = require("fs/promises");
           params: {
           response: "json",
           date: queryDate,
-          stockNo: readfile("stock.txt"),
+          stockNo,
         },
       }
     );
